@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">SampleTest</string>
+
+    <string name="near_me">Near Me</string>
+
+    <string name="explore">Explore</string>
+
+    <string name="cart">Cart</string>
+
+    <string name="account">Account</string>
+
+    <string name="top_button1">NOW</string>
+
+    <string name="top_button2">OTHER</string>
+
+    <string name="top_button3">Offers</string>
+
+    <string name="top_icon_description">Right Arrow Icon</string>
+
+    <string name="top_text">416 Restaurants</string>
+
+    <string name="s_f_text">Sort/Filter</string>
+
+    <string-array name="titles">
+        <item>Burger King</item>
+        <item>Mc Donald's</item>
+        <item>Elco</item>
+        <item>Afzal Restaurant</item>
+        <item>Shalimar</item>
+        <item>Mom's Kitchen</item>
+        <item>Mama Mia</item>
+        <item>99 Pancake's</item>
+        <item>Belgium Waffle</item>
+        <item>Pizza By The bay</item>
+        <item>Bhagat Tarachand</item>
+        <item>Nanumal Bhojnalay</item>
+        <item>Starbucks</item>
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>American,Fast Food\n2 outlets near you\n 2 Burgers starting at Rs 100</item>
+        <item>Fast food\n2 outlets near you</item>
+        <item>Street food,Chinese, South Indian</item>
+        <item>Mughlai, North Indian, Chinese, Seafood</item>
+        <item>Faluda, Reshmi Paratha,\n Chicken Dum Biryani,\n Raan Biryani,\n Kebab Platter, Shawarma,\n Mutton Seekh</item>
+        <item>Chinese, Seafood</item>
+        <item>Fast Food, Pizza, Chinese</item>
+        <item>Desserts</item>
+        <item>Cafe, Continental, American</item>
+        <item>Pizza, Pasta, Cappuccino,\n Cocktails, Sangria,\n Salads, Mascarpone</item>
+        <item>North Indian, Street Food, Fast Food, Chinese</item>
+        <item>Chinese, North Indian</item>
+        <item>Cafe, Desserts</item>
+    </string-array>
+
+    <string-array name="ratings">
+    <item>4.6 • 33 MINS • ₹150 FOR TWO</item>
+    <item>4.6 • 40 MINS • ₹200 FOR TWO</item>
+    <item>4.0 • 50 MINS • ₹250 FOR TWO</item>
+    <item>4.6 • 10 MINS • ₹500 FOR TWO</item>
+    <item>4.6 • 56 MINS • ₹300 FOR TWO</item>
+    <item>5.6 • 18 MINS • ₹400 FOR TWO</item>
+    <item>3.6 • 20 MINS • ₹70 FOR TWO</item>
+    <item>2.6 • 40 MINS • ₹160 FOR TWO</item>
+    <item>4.6 • 33 MINS • ₹1000 FOR TWO</item>
+    <item>8.6 • 1 HR • ₹160 FOR TWO</item>
+    <item>1.6 • 45 MINS • ₹280 FOR TWO</item>
+    <item>6.6 • 60 MINS • ₹1500 FOR TWO</item>
+    <item>10.0 • 2 HRS • ₹1020 FOR TWO</item>
+    </string-array>
+</resources>
