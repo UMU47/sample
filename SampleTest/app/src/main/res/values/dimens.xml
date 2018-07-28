@@ -15,5 +15,7 @@
     <dimen name="text_pad">08dp</dimen>
     <dimen name="img_top_margin">50dp</dimen>
     <dimen name="center_pad">20dp</dimen>
+    <dimen name="list_img">10dp</dimen>
+    <dimen name="img_desc_size">30sp</dimen>
 
 </resources>

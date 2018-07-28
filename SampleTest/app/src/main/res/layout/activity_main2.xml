@@ -1,13 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/htab_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/htab_collapse_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            android:fitsSystemWindows="true">
+
+<RelativeLayout
+    android:id="@+id/PLL"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <android.support.design.widget.AppBarLayout>
-        <android.support.design.widget.CollapsingToolbarLayout>
-            <ImageView />
-            <android.support.v7.widget.Toolbar />
-            <android.support.design.widget.TabLayout />
+
+    <ImageView
+        android:id="@+id/htab_header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/nat"
+        android:fitsSystemWindows="true"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/parallax_img_description" />
+
+    <TextView
+        android:id="@+id/img_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/img_desc"
+        android:textSize="@dimen/img_desc_size" />
+
+</RelativeLayout>
+
+
         </android.support.design.widget.CollapsingToolbarLayout>
+
+        <TextView
+            android:id="@+id/img_descp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/img_price" />
+
     </android.support.design.widget.AppBarLayout>
-</android.support.design.widget.CoordinatorLayout>
+
+
+</RelativeLayout>

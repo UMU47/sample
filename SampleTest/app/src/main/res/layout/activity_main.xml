@@ -84,6 +84,7 @@
 
         <TextView
             android:id="@+id/textView1"
+            android:textColor="@color/blc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/top_buttons"
@@ -109,6 +110,8 @@
 
 <LinearLayout
     android:id="@+id/LL2"
+    android:textAlignment="center"
+    android:gravity="center"
     app:layout_constraintTop_toBottomOf="@id/LL1"
     app:layout_constraintLeft_toLeftOf="parent"
     app:layout_constraintRight_toRightOf="parent"

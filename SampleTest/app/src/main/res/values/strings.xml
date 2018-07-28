@@ -19,7 +19,7 @@
 
     <string name="next_title">Naturals Ice Cream \n - Kalina</string>
 
-    <string name="next_description">Desserts ⋅ ₹\n\n⌚25-30 MIN   4.6★ (200+)</string>
+    <string name="next_description">Desserts ⋅ ₹\n\n⌚25–30 MIN   4.6★ (200+)</string>
 
     <string name="top_button1">NOW</string>
 
@@ -48,6 +48,12 @@
     <string name="des7">Offer7</string>
 
     <string name="des8">Offer8</string>
+
+    <string name="parallax_img_description">Naturals IceCream</string>
+
+    <string name="img_desc">Natural Ice Cream \n-Kalina</string>
+
+    <string name="img_price">Desserts ⋅ ₹\n\n⌚25–30 MIN   4.6★ (200+)</string>
 
     <string-array name="titles">
         <item>Burger King</item>
