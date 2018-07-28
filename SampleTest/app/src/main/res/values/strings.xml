@@ -1,5 +1,13 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">SampleTest</string>
+
+    <string name="title">Title</string>
+
+    <string name="description">Description</string>
+
+    <string name="ratings">Ratings</string>
+
+    <string name="img_description">Item Image</string>
 
     <string name="near_me">Near Me</string>
 
@@ -8,6 +16,10 @@
     <string name="cart">Cart</string>
 
     <string name="account">Account</string>
+
+    <string name="next_title">Naturals Ice Cream \n - Kalina</string>
+
+    <string name="next_description">Desserts ⋅ ₹\n\n⌚25-30 MIN   4.6★ (200+)</string>
 
     <string name="top_button1">NOW</string>
 
@@ -20,6 +32,22 @@
     <string name="top_text">416 Restaurants</string>
 
     <string name="s_f_text">Sort/Filter</string>
+
+    <string name="des1">Offer1</string>
+
+    <string name="des2">Offer2</string>
+
+    <string name="des3">Offer3</string>
+
+    <string name="des4">Offer4</string>
+
+    <string name="des5">Offer5</string>
+
+    <string name="des6">Offer6</string>
+
+    <string name="des7">Offer7</string>
+
+    <string name="des8">Offer8</string>
 
     <string-array name="titles">
         <item>Burger King</item>
@@ -42,7 +70,7 @@
         <item>Fast food\n2 outlets near you</item>
         <item>Street food,Chinese, South Indian</item>
         <item>Mughlai, North Indian, Chinese, Seafood</item>
-        <item>Faluda, Reshmi Paratha,\n Chicken Dum Biryani,\n Raan Biryani,\n Kebab Platter, Shawarma,\n Mutton Seekh</item>
+        <item tools:ignore="Typos">Faluda, Reshmi Paratha,\n Chicken Dum Biryani,\n Raan Biryani,\n Kebab Platter, Shawarma,\n Mutton Seekh</item>
         <item>Chinese, Seafood</item>
         <item>Fast Food, Pizza, Chinese</item>
         <item>Desserts</item>
@@ -54,18 +82,18 @@
     </string-array>
 
     <string-array name="ratings">
-    <item>4.6 • 33 MINS • ₹150 FOR TWO</item>
-    <item>4.6 • 40 MINS • ₹200 FOR TWO</item>
-    <item>4.0 • 50 MINS • ₹250 FOR TWO</item>
-    <item>4.6 • 10 MINS • ₹500 FOR TWO</item>
-    <item>4.6 • 56 MINS • ₹300 FOR TWO</item>
-    <item>5.6 • 18 MINS • ₹400 FOR TWO</item>
-    <item>3.6 • 20 MINS • ₹70 FOR TWO</item>
-    <item>2.6 • 40 MINS • ₹160 FOR TWO</item>
-    <item>4.6 • 33 MINS • ₹1000 FOR TWO</item>
-    <item>8.6 • 1 HR • ₹160 FOR TWO</item>
-    <item>1.6 • 45 MINS • ₹280 FOR TWO</item>
-    <item>6.6 • 60 MINS • ₹1500 FOR TWO</item>
-    <item>10.0 • 2 HRS • ₹1020 FOR TWO</item>
+        <item>4.6  •  33 MINS  •  ₹150 FOR TWO</item>
+        <item>4.6  •  40 MINS  •  ₹200 FOR TWO</item>
+        <item>4.0  •  50 MINS  •  ₹250 FOR TWO</item>
+        <item>4.6  •  10 MINS  •  ₹500 FOR TWO</item>
+        <item>4.6  •  56 MINS  •  ₹300 FOR TWO</item>
+        <item>5.6  •  18 MINS  •  ₹400 FOR TWO</item>
+        <item>3.6  •  20 MINS  •  ₹70 FOR TWO</item>
+        <item>2.6  •  40 MINS  •  ₹160 FOR TWO</item>
+        <item>4.6  •  33 MINS  •  ₹1000 FOR TWO</item>
+        <item>8.6  •  1 HR  •  ₹160 FOR TWO</item>
+        <item>1.6  •  45 MINS  •  ₹280 FOR TWO</item>
+        <item>6.6  •  60 MINS  •  ₹1500 FOR TWO</item>
+        <item>10.0  •  2 HRS  •  ₹1020 FOR TWO</item>
     </string-array>
 </resources>

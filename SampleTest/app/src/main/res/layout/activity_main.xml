@@ -5,6 +5,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -12,21 +13,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toEndOf="parent">
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <Button
+            android:shadowColor="@color/blc"
+            android:backgroundTint="@color/gry"
             android:id="@+id/top1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="@dimen/top_buttons"
-            android:background="@color/wht"
             android:padding="@dimen/top_buttons"
             android:text="@string/top_button1"
-            android:textColor="@color/blc" />
+            android:textColor="@color/wht"
+            tools:targetApi="lollipop" />
 
         <ImageView
             android:id="@+id/top_icon"
@@ -39,82 +43,103 @@
             android:src="@drawable/rightarrow" />
 
         <Button
+            android:shadowColor="@color/blc"
+            android:backgroundTint="@color/gry"
             android:id="@+id/top2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="@dimen/top_buttons"
-            android:background="@color/wht"
             android:padding="@dimen/top_buttons"
             android:text="@string/top_button2"
-            android:textColor="@color/blc" />
+            android:textColor="@color/wht"
+            tools:targetApi="lollipop" />
 
         <Button
+            android:backgroundTint="@color/gry"
+            android:shadowColor="@color/blc"
             android:id="@+id/top3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginStart="@dimen/top_margin"
-            android:background="@color/wht"
             android:drawableStart="@drawable/discount"
             android:padding="@dimen/top_buttons"
             android:text="@string/top_button3"
-            android:textColor="@color/blc"
-            android:textSize="@dimen/off_button" />
+            android:textColor="@color/wht"
+            android:textSize="@dimen/off_button"
+            tools:targetApi="lollipop" />
     </LinearLayout>
 
-        <LinearLayout
-            android:id="@+id/LL1"
-            android:layout_width="match_parent"
+
+    <LinearLayout
+        android:id="@+id/LL1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/LL"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="68dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="68dp"
-            app:layout_constraintBaseline_toBaselineOf="@id/LL"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent">
+            android:layout_margin="@dimen/top_buttons"
+            android:padding="@dimen/top_buttons"
+            android:text="@string/top_text" />
 
-                <TextView
-                    android:id="@+id/textView1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/top_buttons"
-                    android:padding="@dimen/top_buttons"
-                    android:text="@string/top_text" />
+        <Button
+            android:id="@+id/middle1"
+            android:shadowColor="@color/blc"
+            android:backgroundTint="@color/gry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/top1_margin"
+            android:drawableStart="@drawable/sort_filter"
+            android:padding="@dimen/top_icon"
+            android:text="@string/s_f_text"
+            android:textColor="@color/wht"
+            android:textSize="@dimen/off_button"
+            tools:targetApi="lollipop" />
+    </LinearLayout>
 
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/top1_margin"
-                    android:drawableStart="@drawable/sort_filter"
-                    android:layout_gravity="center"
-                    android:background="@color/wht"
-                    android:text="@string/s_f_text"
-                    android:textColor="@color/blc"
-                    android:textSize="@dimen/off_button"
-                    android:padding="@dimen/top_icon" />
-        </LinearLayout>
+
+<LinearLayout
+    android:id="@+id/LL2"
+    app:layout_constraintTop_toBottomOf="@id/LL1"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintBottom_toTopOf="@id/navigation"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
 
     <ListView
         android:id="@+id/list_view"
+        android:layout_width="383dp"
+        android:layout_height="379dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="132dp"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="127dp"
-        app:layout_constraintBaseline_toBaselineOf="@id/LL1"
+        android:layout_marginTop="@dimen/img_pad"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@id/LL2"
+        app:menu="@menu/navigation" />
 
-        <android.support.design.widget.BottomNavigationView
-            android:id="@+id/navigation"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="0dp"
-            android:layout_marginStart="0dp"
-            android:background="?android:attr/windowBackground"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:menu="@menu/navigation"/>
 
 </android.support.constraint.ConstraintLayout>

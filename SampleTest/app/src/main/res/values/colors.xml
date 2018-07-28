@@ -4,5 +4,6 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="wht">#FFF</color>
+    <color name="gry">#999</color>
     <color name="blc">#000</color>
 </resources>
