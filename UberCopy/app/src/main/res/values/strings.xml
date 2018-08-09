@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">UberCopy</string>
-    <string name="title_activity_maps">Map</string>
-    <string name="search_button_text">Where To?</string>
-    <string-array name="adaptuser">
-        <item>For Me</item>
-        <item>+ Change Rider</item>
-    </string-array>
-</resources>
