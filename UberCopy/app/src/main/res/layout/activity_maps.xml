@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/LL"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RL"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+        <Button
+            android:id="@+id/search_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:text="@string/search_button_text"
+            android:textColor="@color/black"
+            android:drawableStart="@drawable/dot"
+            android:background="@color/white"
+            android:drawableEnd="@drawable/car_schedule"
+            android:layout_margin="@dimen/search_button_margin"
+            android:padding="@dimen/search_button_padding"
+            android:onClick="OnSearch"/>
+
     <fragment xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:map="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/map"
     android:name="com.google.android.gms.maps.SupportMapFragment"
@@ -13,4 +26,4 @@
     android:layout_height="match_parent"
     tools:context=".MapsActivity" />
 
-</LinearLayout>
+</RelativeLayout>
