@@ -1,4 +1,4 @@
-package com.addressapp.umairkhan.ubercopy;
+package com.khan.maaz.uberapp;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.addressapp.umairkhan.ubercopy", appContext.getPackageName());
+        assertEquals("com.khan.maaz.uberapp", appContext.getPackageName());
     }
 }

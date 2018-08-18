@@ -1,4 +1,4 @@
-package com.addressapp.umairkhan.ubercopy;
+package com.khan.maaz.uberapp;
 
 import org.junit.Test;
 
